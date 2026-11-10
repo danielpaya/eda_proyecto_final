@@ -1,0 +1,13 @@
+paso,etapa,filas_antes,columnas_antes,filas_despues,columnas_despues,delta_filas,delta_columnas,registros_afectados,descripcion
+1,Extracción,0,0,50000,11,50000,11,50000,Lectura de data/raw/uap-atlas-reports-2010-2100.csv (UTF-8)
+2,a) Conversión de datetime + hora_conocida,50000,11,50000,12,0,1,1624,datetime (texto) -> fecha_hora (datetime64); marca booleana de hora conocida
+3,b) Marca de posibles duplicados (se conservan),50000,12,50000,13,0,1,439,Se conservan: son testigos distintos del mismo evento; cada reporte es carga de trabajo
+4,c) Unificación de forma desconocida + grupo_forma,50000,13,50000,15,0,2,7409,"NaN, 'unknown' y 'other' -> 'desconocida'; 24 formas -> 6 grupos"
+5,d) Imputación de país desde lat/lng,50000,15,50000,16,0,1,1443,Método: reverse_geocoder + respaldo vecino más cercano; 'country' -> 'pais' + marca pais_imputado
+6,e1) Duraciones > 24 h -> no válidas,50000,16,50000,17,0,1,11,Valores > 86.400 s pasan a faltante; marca duracion_atipica
+7,e2) Imputación de duración (mediana por forma),50000,17,50000,19,0,2,7722,Mediana por forma (grupo si < 30 casos válidos); marca duracion_imputada
+8,f1) Eliminación de columnas sin valor analítico,50000,19,50000,15,0,-4,0,"source, locationPrecision (constantes), status (99,97 % open), sourceUrl (redundante con id)"
+9,f2) Exclusión de 2017 (año incompleto),50000,15,49803,15,-197,0,197,Se conservan 2010-01-01 a 2016-12-31
+10,g) Ingeniería de variables,49803,15,49803,27,0,12,49803,"fecha, anio, mes, dia_semana(_num), hora, fin_de_semana, franja_dia, festivo_pirotecnia, log_duracion, rango_duracion(_orden)"
+11,Carga: exportación de uap_procesado.csv,50000,11,49803,27,-197,16,49803,"Tabla de hechos final + dim_forma, dim_pais, serie_mensual, serie_semanal, diccionario"
+12,h) Segmentación geográfica (K-means),49803,27,49803,28,0,1,49803,cluster_geo con k = 4 (máxima silueta)

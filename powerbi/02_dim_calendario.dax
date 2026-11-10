@@ -1,0 +1,14 @@
+-- Nueva tabla (Modelado > Nueva tabla). Luego: clic derecho > Marcar como tabla de fechas > columna Fecha.
+dim_calendario =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2010, 1, 1 ), DATE ( 2017, 12, 31 ) ),
+    "Año", YEAR ( [Date] ),
+    "MesNum", MONTH ( [Date] ),
+    "Mes", FORMAT ( [Date], "mmm" ),
+    "AñoMes", FORMAT ( [Date], "yyyy-mm" ),
+    "DiaSemanaNum", WEEKDAY ( [Date], 2 ),
+    "DiaSemana", SWITCH ( WEEKDAY ( [Date], 2 ),
+        1, "Lun", 2, "Mar", 3, "Mié", 4, "Jue", 5, "Vie", 6, "Sáb", "Dom" )
+)
+-- IMPORTANTE: CALENDAR crea la columna [Date]. Renómbrala a "Fecha" (clic derecho > Cambiar nombre)
+-- para que coincida con la Tabla 15 del informe. Ordenar "Mes" por "MesNum" y "DiaSemana" por "DiaSemanaNum".

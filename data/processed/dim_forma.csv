@@ -1,0 +1,24 @@
+forma,forma_es,grupo_forma,grupo_orden
+changing,Cambiante,formación/cambiante,5
+chevron,Chevrón,angulares,3
+cigar,Cigarro,alargadas,4
+circle,Círculo,redondas,2
+cone,Cono,angulares,3
+cross,Cruz,angulares,3
+cube,Cubo,angulares,3
+cylinder,Cilindro,alargadas,4
+desconocida,Desconocida,desconocida,6
+diamond,Diamante,angulares,3
+disk,Disco,redondas,2
+egg,Huevo,redondas,2
+fireball,Bola de fuego,luces,1
+flash,Destello,luces,1
+formation,Formación,formación/cambiante,5
+light,Luz,luces,1
+orb,Orbe,luces,1
+oval,Óvalo,redondas,2
+rectangle,Rectángulo,angulares,3
+sphere,Esfera,redondas,2
+star,Estrella,luces,1
+teardrop,Lágrima,alargadas,4
+triangle,Triángulo,angulares,3

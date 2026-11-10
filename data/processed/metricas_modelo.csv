@@ -1,0 +1,8 @@
+granularidad,modelo,MAE,RMSE,MAPE,mejora_MAE_vs_ingenuo_pct,principal,cumple_CE1_MAPE,cumple_CE2_MAE,ljung_box_p12
+Mensual,Ingenuo estacional,93.5,102.6856,19.0712,0.0,0,1,0,
+Mensual,Holt-Winters,87.3378,102.5551,17.2315,6.5906,1,1,0,0.0974
+Mensual,SARIMA,100.6306,116.1432,19.8573,-7.6263,0,1,0,
+Mensual,Random Forest,96.5506,112.1995,21.2349,-3.2626,0,0,0,
+Semanal,Ingenuo estacional,29.1765,41.7251,25.07,0.0,0,0,0,
+Semanal,Holt-Winters,26.4347,41.4011,23.4279,9.3971,0,0,0,
+Semanal,Random Forest,27.3834,34.0791,25.5696,6.1456,0,0,0,

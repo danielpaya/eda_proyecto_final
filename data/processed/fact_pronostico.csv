@@ -1,0 +1,599 @@
+granularidad,conjunto,modelo,fecha,real,pronostico,li_95,ls_95,es_principal
+Mensual,Entrenamiento,Real,2010-01-01,310.0,,,,0
+Mensual,Entrenamiento,Real,2010-02-01,206.0,,,,0
+Mensual,Entrenamiento,Real,2010-03-01,281.0,,,,0
+Mensual,Entrenamiento,Real,2010-04-01,313.0,,,,0
+Mensual,Entrenamiento,Real,2010-05-01,355.0,,,,0
+Mensual,Entrenamiento,Real,2010-06-01,419.0,,,,0
+Mensual,Entrenamiento,Real,2010-07-01,889.0,,,,0
+Mensual,Entrenamiento,Real,2010-08-01,565.0,,,,0
+Mensual,Entrenamiento,Real,2010-09-01,475.0,,,,0
+Mensual,Entrenamiento,Real,2010-10-01,498.0,,,,0
+Mensual,Entrenamiento,Real,2010-11-01,386.0,,,,0
+Mensual,Entrenamiento,Real,2010-12-01,331.0,,,,0
+Mensual,Entrenamiento,Real,2011-01-01,342.0,,,,0
+Mensual,Entrenamiento,Real,2011-02-01,286.0,,,,0
+Mensual,Entrenamiento,Real,2011-03-01,346.0,,,,0
+Mensual,Entrenamiento,Real,2011-04-01,330.0,,,,0
+Mensual,Entrenamiento,Real,2011-05-01,415.0,,,,0
+Mensual,Entrenamiento,Real,2011-06-01,447.0,,,,0
+Mensual,Entrenamiento,Real,2011-07-01,827.0,,,,0
+Mensual,Entrenamiento,Real,2011-08-01,680.0,,,,0
+Mensual,Entrenamiento,Real,2011-09-01,591.0,,,,0
+Mensual,Entrenamiento,Real,2011-10-01,670.0,,,,0
+Mensual,Entrenamiento,Real,2011-11-01,465.0,,,,0
+Mensual,Entrenamiento,Real,2011-12-01,561.0,,,,0
+Mensual,Entrenamiento,Real,2012-01-01,606.0,,,,0
+Mensual,Entrenamiento,Real,2012-02-01,413.0,,,,0
+Mensual,Entrenamiento,Real,2012-03-01,565.0,,,,0
+Mensual,Entrenamiento,Real,2012-04-01,531.0,,,,0
+Mensual,Entrenamiento,Real,2012-05-01,554.0,,,,0
+Mensual,Entrenamiento,Real,2012-06-01,807.0,,,,0
+Mensual,Entrenamiento,Real,2012-07-01,981.0,,,,0
+Mensual,Entrenamiento,Real,2012-08-01,935.0,,,,0
+Mensual,Entrenamiento,Real,2012-09-01,799.0,,,,0
+Mensual,Entrenamiento,Real,2012-10-01,702.0,,,,0
+Mensual,Entrenamiento,Real,2012-11-01,801.0,,,,0
+Mensual,Entrenamiento,Real,2012-12-01,704.0,,,,0
+Mensual,Entrenamiento,Real,2013-01-01,415.0,,,,0
+Mensual,Entrenamiento,Real,2013-02-01,294.0,,,,0
+Mensual,Entrenamiento,Real,2013-03-01,412.0,,,,0
+Mensual,Entrenamiento,Real,2013-04-01,446.0,,,,0
+Mensual,Entrenamiento,Real,2013-05-01,561.0,,,,0
+Mensual,Entrenamiento,Real,2013-06-01,689.0,,,,0
+Mensual,Entrenamiento,Real,2013-07-01,1014.0,,,,0
+Mensual,Entrenamiento,Real,2013-08-01,948.0,,,,0
+Mensual,Entrenamiento,Real,2013-09-01,823.0,,,,0
+Mensual,Entrenamiento,Real,2013-10-01,819.0,,,,0
+Mensual,Entrenamiento,Real,2013-11-01,829.0,,,,0
+Mensual,Entrenamiento,Real,2013-12-01,803.0,,,,0
+Mensual,Entrenamiento,Real,2014-01-01,741.0,,,,0
+Mensual,Entrenamiento,Real,2014-02-01,586.0,,,,0
+Mensual,Entrenamiento,Real,2014-03-01,549.0,,,,0
+Mensual,Entrenamiento,Real,2014-04-01,700.0,,,,0
+Mensual,Entrenamiento,Real,2014-05-01,683.0,,,,0
+Mensual,Entrenamiento,Real,2014-06-01,818.0,,,,0
+Mensual,Entrenamiento,Real,2014-07-01,1163.0,,,,0
+Mensual,Entrenamiento,Real,2014-08-01,965.0,,,,0
+Mensual,Entrenamiento,Real,2014-09-01,864.0,,,,0
+Mensual,Entrenamiento,Real,2014-10-01,832.0,,,,0
+Mensual,Entrenamiento,Real,2014-11-01,567.0,,,,0
+Mensual,Entrenamiento,Real,2014-12-01,543.0,,,,0
+Mensual,Entrenamiento,Real,2015-01-01,567.0,,,,0
+Mensual,Entrenamiento,Real,2015-02-01,370.0,,,,0
+Mensual,Entrenamiento,Real,2015-03-01,518.0,,,,0
+Mensual,Entrenamiento,Real,2015-04-01,482.0,,,,0
+Mensual,Entrenamiento,Real,2015-05-01,489.0,,,,0
+Mensual,Entrenamiento,Real,2015-06-01,524.0,,,,0
+Mensual,Entrenamiento,Real,2015-07-01,772.0,,,,0
+Mensual,Entrenamiento,Real,2015-08-01,660.0,,,,0
+Mensual,Entrenamiento,Real,2015-09-01,778.0,,,,0
+Mensual,Entrenamiento,Real,2015-10-01,694.0,,,,0
+Mensual,Entrenamiento,Real,2015-11-01,956.0,,,,0
+Mensual,Entrenamiento,Real,2015-12-01,462.0,,,,0
+Mensual,Prueba,Ingenuo estacional,2016-01-01,457.0,567.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-02-01,471.0,370.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-03-01,444.0,518.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-04-01,418.0,482.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-05-01,399.0,489.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-06-01,484.0,524.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-07-01,737.0,772.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-08-01,608.0,660.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-09-01,627.0,778.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-10-01,528.0,694.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-11-01,533.0,685.0,,,0
+Mensual,Prueba,Ingenuo estacional,2016-12-01,375.0,462.0,,,0
+Mensual,Prueba,Holt-Winters,2016-01-01,457.0,471.55,320.24,622.85,1
+Mensual,Prueba,Holt-Winters,2016-02-01,471.0,331.9,180.6,483.21,1
+Mensual,Prueba,Holt-Winters,2016-03-01,444.0,415.87,264.56,567.18,1
+Mensual,Prueba,Holt-Winters,2016-04-01,418.0,435.66,284.35,586.96,1
+Mensual,Prueba,Holt-Winters,2016-05-01,399.0,466.35,315.04,617.66,1
+Mensual,Prueba,Holt-Winters,2016-06-01,484.0,581.93,430.63,733.24,1
+Mensual,Prueba,Holt-Winters,2016-07-01,737.0,903.51,752.2,1054.81,1
+Mensual,Prueba,Holt-Winters,2016-08-01,608.0,752.63,601.32,903.93,1
+Mensual,Prueba,Holt-Winters,2016-09-01,627.0,680.09,528.79,831.4,1
+Mensual,Prueba,Holt-Winters,2016-10-01,528.0,658.88,507.58,810.19,1
+Mensual,Prueba,Holt-Winters,2016-11-01,533.0,576.55,425.24,727.85,1
+Mensual,Prueba,Holt-Winters,2016-12-01,375.0,519.69,368.38,670.99,1
+Mensual,Prueba,SARIMA,2016-01-01,457.0,476.32,,,0
+Mensual,Prueba,SARIMA,2016-02-01,471.0,338.87,,,0
+Mensual,Prueba,SARIMA,2016-03-01,444.0,424.68,,,0
+Mensual,Prueba,SARIMA,2016-04-01,418.0,446.55,,,0
+Mensual,Prueba,SARIMA,2016-05-01,399.0,479.24,,,0
+Mensual,Prueba,SARIMA,2016-06-01,484.0,596.92,,,0
+Mensual,Prueba,SARIMA,2016-07-01,737.0,920.1,,,0
+Mensual,Prueba,SARIMA,2016-08-01,608.0,771.62,,,0
+Mensual,Prueba,SARIMA,2016-09-01,627.0,701.14,,,0
+Mensual,Prueba,SARIMA,2016-10-01,528.0,681.92,,,0
+Mensual,Prueba,SARIMA,2016-11-01,533.0,601.66,,,0
+Mensual,Prueba,SARIMA,2016-12-01,375.0,546.64,,,0
+Mensual,Prueba,Random Forest,2016-01-01,457.0,505.24,,,0
+Mensual,Prueba,Random Forest,2016-02-01,471.0,513.64,,,0
+Mensual,Prueba,Random Forest,2016-03-01,444.0,502.57,,,0
+Mensual,Prueba,Random Forest,2016-04-01,418.0,555.18,,,0
+Mensual,Prueba,Random Forest,2016-05-01,399.0,559.95,,,0
+Mensual,Prueba,Random Forest,2016-06-01,484.0,587.39,,,0
+Mensual,Prueba,Random Forest,2016-07-01,737.0,680.03,,,0
+Mensual,Prueba,Random Forest,2016-08-01,608.0,663.34,,,0
+Mensual,Prueba,Random Forest,2016-09-01,627.0,663.76,,,0
+Mensual,Prueba,Random Forest,2016-10-01,528.0,651.83,,,0
+Mensual,Prueba,Random Forest,2016-11-01,533.0,633.06,,,0
+Mensual,Prueba,Random Forest,2016-12-01,375.0,609.67,,,0
+Mensual,Futuro,Holt-Winters,2017-01-01,,358.74,205.56,511.92,1
+Mensual,Futuro,Holt-Winters,2017-02-01,,242.18,88.99,395.36,1
+Mensual,Futuro,Holt-Winters,2017-03-01,,311.71,158.52,464.89,1
+Mensual,Futuro,Holt-Winters,2017-04-01,,326.33,173.14,479.51,1
+Mensual,Futuro,Holt-Winters,2017-05-01,,351.14,197.96,504.33,1
+Mensual,Futuro,Holt-Winters,2017-06-01,,463.57,310.39,616.75,1
+Mensual,Futuro,Holt-Winters,2017-07-01,,763.97,610.79,917.16,1
+Mensual,Futuro,Holt-Winters,2017-08-01,,629.97,476.79,783.15,1
+Mensual,Futuro,Holt-Winters,2017-09-01,,571.86,418.68,725.04,1
+Mensual,Futuro,Holt-Winters,2017-10-01,,540.9,387.72,694.08,1
+Mensual,Futuro,Holt-Winters,2017-11-01,,472.2,319.02,625.39,1
+Mensual,Futuro,Holt-Winters,2017-12-01,,402.17,248.99,555.36,1
+Semanal,Entrenamiento,Real,2010-01-04,72.0,,,,0
+Semanal,Entrenamiento,Real,2010-01-11,62.0,,,,0
+Semanal,Entrenamiento,Real,2010-01-18,55.0,,,,0
+Semanal,Entrenamiento,Real,2010-01-25,50.0,,,,0
+Semanal,Entrenamiento,Real,2010-02-01,49.0,,,,0
+Semanal,Entrenamiento,Real,2010-02-08,52.0,,,,0
+Semanal,Entrenamiento,Real,2010-02-15,59.0,,,,0
+Semanal,Entrenamiento,Real,2010-02-22,46.0,,,,0
+Semanal,Entrenamiento,Real,2010-03-01,74.0,,,,0
+Semanal,Entrenamiento,Real,2010-03-08,59.0,,,,0
+Semanal,Entrenamiento,Real,2010-03-15,76.0,,,,0
+Semanal,Entrenamiento,Real,2010-03-22,49.0,,,,0
+Semanal,Entrenamiento,Real,2010-03-29,58.0,,,,0
+Semanal,Entrenamiento,Real,2010-04-05,83.0,,,,0
+Semanal,Entrenamiento,Real,2010-04-12,87.0,,,,0
+Semanal,Entrenamiento,Real,2010-04-19,67.0,,,,0
+Semanal,Entrenamiento,Real,2010-04-26,71.0,,,,0
+Semanal,Entrenamiento,Real,2010-05-03,80.0,,,,0
+Semanal,Entrenamiento,Real,2010-05-10,85.0,,,,0
+Semanal,Entrenamiento,Real,2010-05-17,71.0,,,,0
+Semanal,Entrenamiento,Real,2010-05-24,79.0,,,,0
+Semanal,Entrenamiento,Real,2010-05-31,94.0,,,,0
+Semanal,Entrenamiento,Real,2010-06-07,73.0,,,,0
+Semanal,Entrenamiento,Real,2010-06-14,99.0,,,,0
+Semanal,Entrenamiento,Real,2010-06-21,111.0,,,,0
+Semanal,Entrenamiento,Real,2010-06-28,384.0,,,,0
+Semanal,Entrenamiento,Real,2010-07-05,189.0,,,,0
+Semanal,Entrenamiento,Real,2010-07-12,153.0,,,,0
+Semanal,Entrenamiento,Real,2010-07-19,123.0,,,,0
+Semanal,Entrenamiento,Real,2010-07-26,110.0,,,,0
+Semanal,Entrenamiento,Real,2010-08-02,114.0,,,,0
+Semanal,Entrenamiento,Real,2010-08-09,165.0,,,,0
+Semanal,Entrenamiento,Real,2010-08-16,107.0,,,,0
+Semanal,Entrenamiento,Real,2010-08-23,133.0,,,,0
+Semanal,Entrenamiento,Real,2010-08-30,134.0,,,,0
+Semanal,Entrenamiento,Real,2010-09-06,103.0,,,,0
+Semanal,Entrenamiento,Real,2010-09-13,113.0,,,,0
+Semanal,Entrenamiento,Real,2010-09-20,96.0,,,,0
+Semanal,Entrenamiento,Real,2010-09-27,111.0,,,,0
+Semanal,Entrenamiento,Real,2010-10-04,124.0,,,,0
+Semanal,Entrenamiento,Real,2010-10-11,118.0,,,,0
+Semanal,Entrenamiento,Real,2010-10-18,92.0,,,,0
+Semanal,Entrenamiento,Real,2010-10-25,110.0,,,,0
+Semanal,Entrenamiento,Real,2010-11-01,111.0,,,,0
+Semanal,Entrenamiento,Real,2010-11-08,118.0,,,,0
+Semanal,Entrenamiento,Real,2010-11-15,89.0,,,,0
+Semanal,Entrenamiento,Real,2010-11-22,59.0,,,,0
+Semanal,Entrenamiento,Real,2010-11-29,62.0,,,,0
+Semanal,Entrenamiento,Real,2010-12-06,73.0,,,,0
+Semanal,Entrenamiento,Real,2010-12-13,61.0,,,,0
+Semanal,Entrenamiento,Real,2010-12-20,77.0,,,,0
+Semanal,Entrenamiento,Real,2010-12-27,126.0,,,,0
+Semanal,Entrenamiento,Real,2011-01-03,75.0,,,,0
+Semanal,Entrenamiento,Real,2011-01-10,84.0,,,,0
+Semanal,Entrenamiento,Real,2011-01-17,57.0,,,,0
+Semanal,Entrenamiento,Real,2011-01-24,59.0,,,,0
+Semanal,Entrenamiento,Real,2011-01-31,68.0,,,,0
+Semanal,Entrenamiento,Real,2011-02-07,69.0,,,,0
+Semanal,Entrenamiento,Real,2011-02-14,82.0,,,,0
+Semanal,Entrenamiento,Real,2011-02-21,64.0,,,,0
+Semanal,Entrenamiento,Real,2011-02-28,91.0,,,,0
+Semanal,Entrenamiento,Real,2011-03-07,92.0,,,,0
+Semanal,Entrenamiento,Real,2011-03-14,70.0,,,,0
+Semanal,Entrenamiento,Real,2011-03-21,65.0,,,,0
+Semanal,Entrenamiento,Real,2011-03-28,74.0,,,,0
+Semanal,Entrenamiento,Real,2011-04-04,78.0,,,,0
+Semanal,Entrenamiento,Real,2011-04-11,91.0,,,,0
+Semanal,Entrenamiento,Real,2011-04-18,66.0,,,,0
+Semanal,Entrenamiento,Real,2011-04-25,70.0,,,,0
+Semanal,Entrenamiento,Real,2011-05-02,92.0,,,,0
+Semanal,Entrenamiento,Real,2011-05-09,64.0,,,,0
+Semanal,Entrenamiento,Real,2011-05-16,154.0,,,,0
+Semanal,Entrenamiento,Real,2011-05-23,74.0,,,,0
+Semanal,Entrenamiento,Real,2011-05-30,103.0,,,,0
+Semanal,Entrenamiento,Real,2011-06-06,74.0,,,,0
+Semanal,Entrenamiento,Real,2011-06-13,116.0,,,,0
+Semanal,Entrenamiento,Real,2011-06-20,86.0,,,,0
+Semanal,Entrenamiento,Real,2011-06-27,235.0,,,,0
+Semanal,Entrenamiento,Real,2011-07-04,270.0,,,,0
+Semanal,Entrenamiento,Real,2011-07-11,139.0,,,,0
+Semanal,Entrenamiento,Real,2011-07-18,131.0,,,,0
+Semanal,Entrenamiento,Real,2011-07-25,141.0,,,,0
+Semanal,Entrenamiento,Real,2011-08-01,133.0,,,,0
+Semanal,Entrenamiento,Real,2011-08-08,172.0,,,,0
+Semanal,Entrenamiento,Real,2011-08-15,158.0,,,,0
+Semanal,Entrenamiento,Real,2011-08-22,150.0,,,,0
+Semanal,Entrenamiento,Real,2011-08-29,177.0,,,,0
+Semanal,Entrenamiento,Real,2011-09-05,128.0,,,,0
+Semanal,Entrenamiento,Real,2011-09-12,145.0,,,,0
+Semanal,Entrenamiento,Real,2011-09-19,116.0,,,,0
+Semanal,Entrenamiento,Real,2011-09-26,137.0,,,,0
+Semanal,Entrenamiento,Real,2011-10-03,141.0,,,,0
+Semanal,Entrenamiento,Real,2011-10-10,130.0,,,,0
+Semanal,Entrenamiento,Real,2011-10-17,191.0,,,,0
+Semanal,Entrenamiento,Real,2011-10-24,139.0,,,,0
+Semanal,Entrenamiento,Real,2011-10-31,134.0,,,,0
+Semanal,Entrenamiento,Real,2011-11-07,100.0,,,,0
+Semanal,Entrenamiento,Real,2011-11-14,114.0,,,,0
+Semanal,Entrenamiento,Real,2011-11-21,103.0,,,,0
+Semanal,Entrenamiento,Real,2011-11-28,119.0,,,,0
+Semanal,Entrenamiento,Real,2011-12-05,83.0,,,,0
+Semanal,Entrenamiento,Real,2011-12-12,116.0,,,,0
+Semanal,Entrenamiento,Real,2011-12-19,152.0,,,,0
+Semanal,Entrenamiento,Real,2011-12-26,211.0,,,,0
+Semanal,Entrenamiento,Real,2012-01-02,150.0,,,,0
+Semanal,Entrenamiento,Real,2012-01-09,130.0,,,,0
+Semanal,Entrenamiento,Real,2012-01-16,113.0,,,,0
+Semanal,Entrenamiento,Real,2012-01-23,106.0,,,,0
+Semanal,Entrenamiento,Real,2012-01-30,133.0,,,,0
+Semanal,Entrenamiento,Real,2012-02-06,107.0,,,,0
+Semanal,Entrenamiento,Real,2012-02-13,88.0,,,,0
+Semanal,Entrenamiento,Real,2012-02-20,76.0,,,,0
+Semanal,Entrenamiento,Real,2012-02-27,93.0,,,,0
+Semanal,Entrenamiento,Real,2012-03-05,106.0,,,,0
+Semanal,Entrenamiento,Real,2012-03-12,169.0,,,,0
+Semanal,Entrenamiento,Real,2012-03-19,148.0,,,,0
+Semanal,Entrenamiento,Real,2012-03-26,99.0,,,,0
+Semanal,Entrenamiento,Real,2012-04-02,107.0,,,,0
+Semanal,Entrenamiento,Real,2012-04-09,127.0,,,,0
+Semanal,Entrenamiento,Real,2012-04-16,159.0,,,,0
+Semanal,Entrenamiento,Real,2012-04-23,114.0,,,,0
+Semanal,Entrenamiento,Real,2012-04-30,111.0,,,,0
+Semanal,Entrenamiento,Real,2012-05-07,139.0,,,,0
+Semanal,Entrenamiento,Real,2012-05-14,139.0,,,,0
+Semanal,Entrenamiento,Real,2012-05-21,118.0,,,,0
+Semanal,Entrenamiento,Real,2012-05-28,120.0,,,,0
+Semanal,Entrenamiento,Real,2012-06-04,160.0,,,,0
+Semanal,Entrenamiento,Real,2012-06-11,184.0,,,,0
+Semanal,Entrenamiento,Real,2012-06-18,219.0,,,,0
+Semanal,Entrenamiento,Real,2012-06-25,219.0,,,,0
+Semanal,Entrenamiento,Real,2012-07-02,379.0,,,,0
+Semanal,Entrenamiento,Real,2012-07-09,179.0,,,,0
+Semanal,Entrenamiento,Real,2012-07-16,171.0,,,,0
+Semanal,Entrenamiento,Real,2012-07-23,169.0,,,,0
+Semanal,Entrenamiento,Real,2012-07-30,172.0,,,,0
+Semanal,Entrenamiento,Real,2012-08-06,274.0,,,,0
+Semanal,Entrenamiento,Real,2012-08-13,234.0,,,,0
+Semanal,Entrenamiento,Real,2012-08-20,196.0,,,,0
+Semanal,Entrenamiento,Real,2012-08-27,199.0,,,,0
+Semanal,Entrenamiento,Real,2012-09-03,153.0,,,,0
+Semanal,Entrenamiento,Real,2012-09-10,210.0,,,,0
+Semanal,Entrenamiento,Real,2012-09-17,185.0,,,,0
+Semanal,Entrenamiento,Real,2012-09-24,154.0,,,,0
+Semanal,Entrenamiento,Real,2012-10-01,155.0,,,,0
+Semanal,Entrenamiento,Real,2012-10-08,165.0,,,,0
+Semanal,Entrenamiento,Real,2012-10-15,181.0,,,,0
+Semanal,Entrenamiento,Real,2012-10-22,141.0,,,,0
+Semanal,Entrenamiento,Real,2012-10-29,171.0,,,,0
+Semanal,Entrenamiento,Real,2012-11-05,235.0,,,,0
+Semanal,Entrenamiento,Real,2012-11-12,220.0,,,,0
+Semanal,Entrenamiento,Real,2012-11-19,160.0,,,,0
+Semanal,Entrenamiento,Real,2012-11-26,96.0,,,,0
+Semanal,Entrenamiento,Real,2012-12-03,142.0,,,,0
+Semanal,Entrenamiento,Real,2012-12-10,156.0,,,,0
+Semanal,Entrenamiento,Real,2012-12-17,160.0,,,,0
+Semanal,Entrenamiento,Real,2012-12-24,150.0,,,,0
+Semanal,Entrenamiento,Real,2012-12-31,233.0,,,,0
+Semanal,Entrenamiento,Real,2013-01-07,83.0,,,,0
+Semanal,Entrenamiento,Real,2013-01-14,81.0,,,,0
+Semanal,Entrenamiento,Real,2013-01-21,68.0,,,,0
+Semanal,Entrenamiento,Real,2013-01-28,64.0,,,,0
+Semanal,Entrenamiento,Real,2013-02-04,65.0,,,,0
+Semanal,Entrenamiento,Real,2013-02-11,78.0,,,,0
+Semanal,Entrenamiento,Real,2013-02-18,69.0,,,,0
+Semanal,Entrenamiento,Real,2013-02-25,100.0,,,,0
+Semanal,Entrenamiento,Real,2013-03-04,95.0,,,,0
+Semanal,Entrenamiento,Real,2013-03-11,88.0,,,,0
+Semanal,Entrenamiento,Real,2013-03-18,74.0,,,,0
+Semanal,Entrenamiento,Real,2013-03-25,98.0,,,,0
+Semanal,Entrenamiento,Real,2013-04-01,96.0,,,,0
+Semanal,Entrenamiento,Real,2013-04-08,98.0,,,,0
+Semanal,Entrenamiento,Real,2013-04-15,99.0,,,,0
+Semanal,Entrenamiento,Real,2013-04-22,131.0,,,,0
+Semanal,Entrenamiento,Real,2013-04-29,135.0,,,,0
+Semanal,Entrenamiento,Real,2013-05-06,94.0,,,,0
+Semanal,Entrenamiento,Real,2013-05-13,116.0,,,,0
+Semanal,Entrenamiento,Real,2013-05-20,142.0,,,,0
+Semanal,Entrenamiento,Real,2013-05-27,159.0,,,,0
+Semanal,Entrenamiento,Real,2013-06-03,154.0,,,,0
+Semanal,Entrenamiento,Real,2013-06-10,142.0,,,,0
+Semanal,Entrenamiento,Real,2013-06-17,175.0,,,,0
+Semanal,Entrenamiento,Real,2013-06-24,155.0,,,,0
+Semanal,Entrenamiento,Real,2013-07-01,445.0,,,,0
+Semanal,Entrenamiento,Real,2013-07-08,189.0,,,,0
+Semanal,Entrenamiento,Real,2013-07-15,144.0,,,,0
+Semanal,Entrenamiento,Real,2013-07-22,167.0,,,,0
+Semanal,Entrenamiento,Real,2013-07-29,193.0,,,,0
+Semanal,Entrenamiento,Real,2013-08-05,231.0,,,,0
+Semanal,Entrenamiento,Real,2013-08-12,238.0,,,,0
+Semanal,Entrenamiento,Real,2013-08-19,205.0,,,,0
+Semanal,Entrenamiento,Real,2013-08-26,193.0,,,,0
+Semanal,Entrenamiento,Real,2013-09-02,160.0,,,,0
+Semanal,Entrenamiento,Real,2013-09-09,181.0,,,,0
+Semanal,Entrenamiento,Real,2013-09-16,189.0,,,,0
+Semanal,Entrenamiento,Real,2013-09-23,236.0,,,,0
+Semanal,Entrenamiento,Real,2013-09-30,180.0,,,,0
+Semanal,Entrenamiento,Real,2013-10-07,203.0,,,,0
+Semanal,Entrenamiento,Real,2013-10-14,169.0,,,,0
+Semanal,Entrenamiento,Real,2013-10-21,202.0,,,,0
+Semanal,Entrenamiento,Real,2013-10-28,188.0,,,,0
+Semanal,Entrenamiento,Real,2013-11-04,173.0,,,,0
+Semanal,Entrenamiento,Real,2013-11-11,177.0,,,,0
+Semanal,Entrenamiento,Real,2013-11-18,185.0,,,,0
+Semanal,Entrenamiento,Real,2013-11-25,204.0,,,,0
+Semanal,Entrenamiento,Real,2013-12-02,142.0,,,,0
+Semanal,Entrenamiento,Real,2013-12-09,161.0,,,,0
+Semanal,Entrenamiento,Real,2013-12-16,117.0,,,,0
+Semanal,Entrenamiento,Real,2013-12-23,247.0,,,,0
+Semanal,Entrenamiento,Real,2013-12-30,298.0,,,,0
+Semanal,Entrenamiento,Real,2014-01-06,135.0,,,,0
+Semanal,Entrenamiento,Real,2014-01-13,170.0,,,,0
+Semanal,Entrenamiento,Real,2014-01-20,159.0,,,,0
+Semanal,Entrenamiento,Real,2014-01-27,154.0,,,,0
+Semanal,Entrenamiento,Real,2014-02-03,113.0,,,,0
+Semanal,Entrenamiento,Real,2014-02-10,134.0,,,,0
+Semanal,Entrenamiento,Real,2014-02-17,186.0,,,,0
+Semanal,Entrenamiento,Real,2014-02-24,134.0,,,,0
+Semanal,Entrenamiento,Real,2014-03-03,115.0,,,,0
+Semanal,Entrenamiento,Real,2014-03-10,110.0,,,,0
+Semanal,Entrenamiento,Real,2014-03-17,137.0,,,,0
+Semanal,Entrenamiento,Real,2014-03-24,124.0,,,,0
+Semanal,Entrenamiento,Real,2014-03-31,162.0,,,,0
+Semanal,Entrenamiento,Real,2014-04-07,179.0,,,,0
+Semanal,Entrenamiento,Real,2014-04-14,179.0,,,,0
+Semanal,Entrenamiento,Real,2014-04-21,162.0,,,,0
+Semanal,Entrenamiento,Real,2014-04-28,150.0,,,,0
+Semanal,Entrenamiento,Real,2014-05-05,141.0,,,,0
+Semanal,Entrenamiento,Real,2014-05-12,140.0,,,,0
+Semanal,Entrenamiento,Real,2014-05-19,187.0,,,,0
+Semanal,Entrenamiento,Real,2014-05-26,132.0,,,,0
+Semanal,Entrenamiento,Real,2014-06-02,168.0,,,,0
+Semanal,Entrenamiento,Real,2014-06-09,170.0,,,,0
+Semanal,Entrenamiento,Real,2014-06-16,237.0,,,,0
+Semanal,Entrenamiento,Real,2014-06-23,194.0,,,,0
+Semanal,Entrenamiento,Real,2014-06-30,525.0,,,,0
+Semanal,Entrenamiento,Real,2014-07-07,215.0,,,,0
+Semanal,Entrenamiento,Real,2014-07-14,173.0,,,,0
+Semanal,Entrenamiento,Real,2014-07-21,176.0,,,,0
+Semanal,Entrenamiento,Real,2014-07-28,220.0,,,,0
+Semanal,Entrenamiento,Real,2014-08-04,168.0,,,,0
+Semanal,Entrenamiento,Real,2014-08-11,198.0,,,,0
+Semanal,Entrenamiento,Real,2014-08-18,236.0,,,,0
+Semanal,Entrenamiento,Real,2014-08-25,241.0,,,,0
+Semanal,Entrenamiento,Real,2014-09-01,202.0,,,,0
+Semanal,Entrenamiento,Real,2014-09-08,186.0,,,,0
+Semanal,Entrenamiento,Real,2014-09-15,201.0,,,,0
+Semanal,Entrenamiento,Real,2014-09-22,243.0,,,,0
+Semanal,Entrenamiento,Real,2014-09-29,175.0,,,,0
+Semanal,Entrenamiento,Real,2014-10-06,204.0,,,,0
+Semanal,Entrenamiento,Real,2014-10-13,192.0,,,,0
+Semanal,Entrenamiento,Real,2014-10-20,191.0,,,,0
+Semanal,Entrenamiento,Real,2014-10-27,144.0,,,,0
+Semanal,Entrenamiento,Real,2014-11-03,123.0,,,,0
+Semanal,Entrenamiento,Real,2014-11-10,137.0,,,,0
+Semanal,Entrenamiento,Real,2014-11-17,138.0,,,,0
+Semanal,Entrenamiento,Real,2014-11-24,127.0,,,,0
+Semanal,Entrenamiento,Real,2014-12-01,90.0,,,,0
+Semanal,Entrenamiento,Real,2014-12-08,140.0,,,,0
+Semanal,Entrenamiento,Real,2014-12-15,97.0,,,,0
+Semanal,Entrenamiento,Real,2014-12-22,138.0,,,,0
+Semanal,Entrenamiento,Real,2014-12-29,180.0,,,,0
+Semanal,Entrenamiento,Real,2015-01-05,133.0,,,,0
+Semanal,Entrenamiento,Real,2015-01-12,126.0,,,,0
+Semanal,Entrenamiento,Real,2015-01-19,107.0,,,,0
+Semanal,Entrenamiento,Real,2015-01-26,116.0,,,,0
+Semanal,Entrenamiento,Real,2015-02-02,110.0,,,,0
+Semanal,Entrenamiento,Real,2015-02-09,88.0,,,,0
+Semanal,Entrenamiento,Real,2015-02-16,81.0,,,,0
+Semanal,Entrenamiento,Real,2015-02-23,87.0,,,,0
+Semanal,Entrenamiento,Real,2015-03-02,110.0,,,,0
+Semanal,Entrenamiento,Real,2015-03-09,156.0,,,,0
+Semanal,Entrenamiento,Real,2015-03-16,121.0,,,,0
+Semanal,Entrenamiento,Real,2015-03-23,91.0,,,,0
+Semanal,Entrenamiento,Real,2015-03-30,127.0,,,,0
+Semanal,Entrenamiento,Real,2015-04-06,112.0,,,,0
+Semanal,Entrenamiento,Real,2015-04-13,123.0,,,,0
+Semanal,Entrenamiento,Real,2015-04-20,102.0,,,,0
+Semanal,Entrenamiento,Real,2015-04-27,117.0,,,,0
+Semanal,Entrenamiento,Real,2015-05-04,108.0,,,,0
+Semanal,Entrenamiento,Real,2015-05-11,95.0,,,,0
+Semanal,Entrenamiento,Real,2015-05-18,113.0,,,,0
+Semanal,Entrenamiento,Real,2015-05-25,101.0,,,,0
+Semanal,Entrenamiento,Real,2015-06-01,119.0,,,,0
+Semanal,Entrenamiento,Real,2015-06-08,119.0,,,,0
+Semanal,Entrenamiento,Real,2015-06-15,113.0,,,,0
+Semanal,Entrenamiento,Real,2015-06-22,118.0,,,,0
+Semanal,Entrenamiento,Real,2015-06-29,346.0,,,,0
+Semanal,Entrenamiento,Real,2015-07-06,120.0,,,,0
+Semanal,Entrenamiento,Real,2015-07-13,120.0,,,,0
+Semanal,Entrenamiento,Real,2015-07-20,145.0,,,,0
+Semanal,Entrenamiento,Real,2015-07-27,143.0,,,,0
+Semanal,Entrenamiento,Real,2015-08-03,168.0,,,,0
+Semanal,Entrenamiento,Real,2015-08-10,169.0,,,,0
+Semanal,Entrenamiento,Real,2015-08-17,152.0,,,,0
+Semanal,Entrenamiento,Real,2015-08-24,116.0,,,,0
+Semanal,Entrenamiento,Real,2015-08-31,151.0,,,,0
+Semanal,Entrenamiento,Real,2015-09-07,165.0,,,,0
+Semanal,Entrenamiento,Real,2015-09-14,192.0,,,,0
+Semanal,Entrenamiento,Real,2015-09-21,215.0,,,,0
+Semanal,Entrenamiento,Real,2015-09-28,146.0,,,,0
+Semanal,Entrenamiento,Real,2015-10-05,171.0,,,,0
+Semanal,Entrenamiento,Real,2015-10-12,167.0,,,,0
+Semanal,Entrenamiento,Real,2015-10-19,175.0,,,,0
+Semanal,Entrenamiento,Real,2015-10-26,141.0,,,,0
+Semanal,Entrenamiento,Real,2015-11-02,461.0,,,,0
+Semanal,Entrenamiento,Real,2015-11-09,146.0,,,,0
+Semanal,Entrenamiento,Real,2015-11-16,180.0,,,,0
+Semanal,Entrenamiento,Real,2015-11-23,119.0,,,,0
+Semanal,Entrenamiento,Real,2015-11-30,94.0,,,,0
+Semanal,Entrenamiento,Real,2015-12-07,95.0,,,,0
+Semanal,Entrenamiento,Real,2015-12-14,108.0,,,,0
+Semanal,Entrenamiento,Real,2015-12-21,113.0,,,,0
+Semanal,Entrenamiento,Real,2015-12-28,144.0,,,,0
+Semanal,Prueba,Ingenuo estacional,2016-01-04,88.0,133.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-01-11,98.0,126.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-01-18,87.0,107.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-01-25,99.0,116.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-02-01,101.0,110.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-02-08,135.0,88.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-02-15,108.0,81.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-02-22,101.0,87.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-02-29,128.0,110.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-03-07,99.0,156.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-03-14,102.0,121.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-03-21,87.0,91.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-03-28,119.0,127.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-04-04,88.0,112.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-04-11,101.0,123.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-04-18,98.0,102.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-04-25,82.0,117.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-05-02,84.0,108.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-05-09,93.0,95.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-05-16,85.0,113.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-05-23,100.0,101.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-05-30,116.0,119.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-06-06,116.0,119.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-06-13,107.0,113.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-06-20,97.0,118.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-06-27,162.0,346.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-07-04,184.0,120.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-07-11,112.0,120.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-07-18,125.0,145.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-07-25,223.0,143.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-08-01,129.0,168.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-08-08,177.0,169.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-08-15,134.0,152.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-08-22,117.0,116.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-08-29,143.0,151.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-09-05,147.0,165.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-09-12,149.0,192.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-09-19,151.0,215.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-09-26,150.0,146.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-10-03,115.0,171.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-10-10,97.0,167.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-10-17,148.0,175.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-10-24,90.0,141.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-10-31,129.0,190.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-11-07,157.0,146.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-11-14,132.0,180.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-11-21,90.0,119.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-11-28,87.0,94.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-12-05,75.0,95.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-12-12,81.0,108.0,,,0
+Semanal,Prueba,Ingenuo estacional,2016-12-19,77.0,113.0,,,0
+Semanal,Prueba,Holt-Winters,2016-01-04,88.0,98.54,,,1
+Semanal,Prueba,Holt-Winters,2016-01-11,98.0,94.23,,,1
+Semanal,Prueba,Holt-Winters,2016-01-18,87.0,85.26,,,1
+Semanal,Prueba,Holt-Winters,2016-01-25,99.0,90.96,,,1
+Semanal,Prueba,Holt-Winters,2016-02-01,101.0,79.5,,,1
+Semanal,Prueba,Holt-Winters,2016-02-08,135.0,81.53,,,1
+Semanal,Prueba,Holt-Winters,2016-02-15,108.0,80.23,,,1
+Semanal,Prueba,Holt-Winters,2016-02-22,101.0,89.6,,,1
+Semanal,Prueba,Holt-Winters,2016-02-29,128.0,89.13,,,1
+Semanal,Prueba,Holt-Winters,2016-03-07,99.0,104.34,,,1
+Semanal,Prueba,Holt-Winters,2016-03-14,102.0,91.69,,,1
+Semanal,Prueba,Holt-Winters,2016-03-21,87.0,83.23,,,1
+Semanal,Prueba,Holt-Winters,2016-03-28,119.0,101.28,,,1
+Semanal,Prueba,Holt-Winters,2016-04-04,88.0,107.97,,,1
+Semanal,Prueba,Holt-Winters,2016-04-11,101.0,107.68,,,1
+Semanal,Prueba,Holt-Winters,2016-04-18,98.0,100.38,,,1
+Semanal,Prueba,Holt-Winters,2016-04-25,82.0,106.08,,,1
+Semanal,Prueba,Holt-Winters,2016-05-02,84.0,96.96,,,1
+Semanal,Prueba,Holt-Winters,2016-05-09,93.0,100.98,,,1
+Semanal,Prueba,Holt-Winters,2016-05-16,85.0,110.35,,,1
+Semanal,Prueba,Holt-Winters,2016-05-23,100.0,109.55,,,1
+Semanal,Prueba,Holt-Winters,2016-05-30,116.0,115.91,,,1
+Semanal,Prueba,Holt-Winters,2016-06-06,116.0,129.44,,,1
+Semanal,Prueba,Holt-Winters,2016-06-13,107.0,147.78,,,1
+Semanal,Prueba,Holt-Winters,2016-06-20,97.0,208.35,,,1
+Semanal,Prueba,Holt-Winters,2016-06-27,162.0,349.73,,,1
+Semanal,Prueba,Holt-Winters,2016-07-04,184.0,156.41,,,1
+Semanal,Prueba,Holt-Winters,2016-07-11,112.0,134.15,,,1
+Semanal,Prueba,Holt-Winters,2016-07-18,125.0,141.72,,,1
+Semanal,Prueba,Holt-Winters,2016-07-25,223.0,152.8,,,1
+Semanal,Prueba,Holt-Winters,2016-08-01,129.0,186.49,,,1
+Semanal,Prueba,Holt-Winters,2016-08-08,177.0,174.05,,,1
+Semanal,Prueba,Holt-Winters,2016-08-15,134.0,168.59,,,1
+Semanal,Prueba,Holt-Winters,2016-08-22,117.0,166.44,,,1
+Semanal,Prueba,Holt-Winters,2016-08-29,143.0,139.15,,,1
+Semanal,Prueba,Holt-Winters,2016-09-05,147.0,156.16,,,1
+Semanal,Prueba,Holt-Winters,2016-09-12,149.0,152.53,,,1
+Semanal,Prueba,Holt-Winters,2016-09-19,151.0,171.9,,,1
+Semanal,Prueba,Holt-Winters,2016-09-26,150.0,142.58,,,1
+Semanal,Prueba,Holt-Winters,2016-10-03,115.0,154.13,,,1
+Semanal,Prueba,Holt-Winters,2016-10-10,97.0,154.17,,,1
+Semanal,Prueba,Holt-Winters,2016-10-17,148.0,148.39,,,1
+Semanal,Prueba,Holt-Winters,2016-10-24,90.0,136.74,,,1
+Semanal,Prueba,Holt-Winters,2016-10-31,129.0,144.95,,,1
+Semanal,Prueba,Holt-Winters,2016-11-07,157.0,135.48,,,1
+Semanal,Prueba,Holt-Winters,2016-11-14,132.0,125.7,,,1
+Semanal,Prueba,Holt-Winters,2016-11-21,90.0,109.23,,,1
+Semanal,Prueba,Holt-Winters,2016-11-28,87.0,91.93,,,1
+Semanal,Prueba,Holt-Winters,2016-12-05,75.0,109.32,,,1
+Semanal,Prueba,Holt-Winters,2016-12-12,81.0,106.19,,,1
+Semanal,Prueba,Holt-Winters,2016-12-19,77.0,151.71,,,1
+Semanal,Prueba,Random Forest,2016-01-04,88.0,115.74,,,0
+Semanal,Prueba,Random Forest,2016-01-11,98.0,105.43,,,0
+Semanal,Prueba,Random Forest,2016-01-18,87.0,118.35,,,0
+Semanal,Prueba,Random Forest,2016-01-25,99.0,110.85,,,0
+Semanal,Prueba,Random Forest,2016-02-01,101.0,117.54,,,0
+Semanal,Prueba,Random Forest,2016-02-08,135.0,119.04,,,0
+Semanal,Prueba,Random Forest,2016-02-15,108.0,122.61,,,0
+Semanal,Prueba,Random Forest,2016-02-22,101.0,117.97,,,0
+Semanal,Prueba,Random Forest,2016-02-29,128.0,116.77,,,0
+Semanal,Prueba,Random Forest,2016-03-07,99.0,114.21,,,0
+Semanal,Prueba,Random Forest,2016-03-14,102.0,108.71,,,0
+Semanal,Prueba,Random Forest,2016-03-21,87.0,123.58,,,0
+Semanal,Prueba,Random Forest,2016-03-28,119.0,104.03,,,0
+Semanal,Prueba,Random Forest,2016-04-04,88.0,119.38,,,0
+Semanal,Prueba,Random Forest,2016-04-11,101.0,108.32,,,0
+Semanal,Prueba,Random Forest,2016-04-18,98.0,122.95,,,0
+Semanal,Prueba,Random Forest,2016-04-25,82.0,115.25,,,0
+Semanal,Prueba,Random Forest,2016-05-02,84.0,118.65,,,0
+Semanal,Prueba,Random Forest,2016-05-09,93.0,121.4,,,0
+Semanal,Prueba,Random Forest,2016-05-16,85.0,117.15,,,0
+Semanal,Prueba,Random Forest,2016-05-23,100.0,122.28,,,0
+Semanal,Prueba,Random Forest,2016-05-30,116.0,115.19,,,0
+Semanal,Prueba,Random Forest,2016-06-06,116.0,124.26,,,0
+Semanal,Prueba,Random Forest,2016-06-13,107.0,140.9,,,0
+Semanal,Prueba,Random Forest,2016-06-20,97.0,145.84,,,0
+Semanal,Prueba,Random Forest,2016-06-27,162.0,281.95,,,0
+Semanal,Prueba,Random Forest,2016-07-04,184.0,188.36,,,0
+Semanal,Prueba,Random Forest,2016-07-11,112.0,150.36,,,0
+Semanal,Prueba,Random Forest,2016-07-18,125.0,154.39,,,0
+Semanal,Prueba,Random Forest,2016-07-25,223.0,153.64,,,0
+Semanal,Prueba,Random Forest,2016-08-01,129.0,157.71,,,0
+Semanal,Prueba,Random Forest,2016-08-08,177.0,158.19,,,0
+Semanal,Prueba,Random Forest,2016-08-15,134.0,158.12,,,0
+Semanal,Prueba,Random Forest,2016-08-22,117.0,154.96,,,0
+Semanal,Prueba,Random Forest,2016-08-29,143.0,157.17,,,0
+Semanal,Prueba,Random Forest,2016-09-05,147.0,157.68,,,0
+Semanal,Prueba,Random Forest,2016-09-12,149.0,167.73,,,0
+Semanal,Prueba,Random Forest,2016-09-19,151.0,174.66,,,0
+Semanal,Prueba,Random Forest,2016-09-26,150.0,157.78,,,0
+Semanal,Prueba,Random Forest,2016-10-03,115.0,157.39,,,0
+Semanal,Prueba,Random Forest,2016-10-10,97.0,156.52,,,0
+Semanal,Prueba,Random Forest,2016-10-17,148.0,156.06,,,0
+Semanal,Prueba,Random Forest,2016-10-24,90.0,154.49,,,0
+Semanal,Prueba,Random Forest,2016-10-31,129.0,165.02,,,0
+Semanal,Prueba,Random Forest,2016-11-07,157.0,154.83,,,0
+Semanal,Prueba,Random Forest,2016-11-14,132.0,153.6,,,0
+Semanal,Prueba,Random Forest,2016-11-21,90.0,141.92,,,0
+Semanal,Prueba,Random Forest,2016-11-28,87.0,120.31,,,0
+Semanal,Prueba,Random Forest,2016-12-05,75.0,109.73,,,0
+Semanal,Prueba,Random Forest,2016-12-12,81.0,109.74,,,0
+Semanal,Prueba,Random Forest,2016-12-19,77.0,111.25,,,0

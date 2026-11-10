@@ -1,0 +1,29 @@
+variable,tipo,descripcion,origen,transformacion
+id,texto,Identificador único del reporte (llave de la tabla de hechos),original,Sin cambios
+fecha_hora,fecha-hora,Fecha y hora local del avistamiento,derivada,datetime convertido con ISO 8601; 00:00 si no hay hora
+fecha,fecha,Fecha del avistamiento (relación con dim_calendario),derivada,Normalización de fecha_hora
+hora_conocida,booleano (0/1),1 si el reporte original incluía la hora,derivada,datetime contiene 'T'
+anio,entero,Año,derivada,fecha_hora.year
+mes,entero,Mes (1–12),derivada,fecha_hora.month
+dia_semana_num,entero,Día de la semana (1 = lunes ... 7 = domingo),derivada,dayofweek + 1
+dia_semana,texto,Nombre del día de la semana,derivada,Mapeo de dia_semana_num
+hora,entero (nulo si no se conoce),Hora local (0–23),derivada,fecha_hora.hour si hora_conocida
+fin_de_semana,booleano (0/1),1 si es sábado o domingo,derivada,dia_semana_num >= 6
+franja_dia,texto,"Madrugada, Mañana, Tarde, Noche o Sin hora",derivada,"Cortes de hora en 0–5, 6–11, 12–17, 18–23"
+festivo_pirotecnia,booleano (0/1),"1 si es 4 de julio, 31 de diciembre o 1 de enero",derivada,Regla de calendario
+lat,decimal,Latitud de la ciudad (grados),original,Sin cambios
+lng,decimal,Longitud de la ciudad (grados),original,Sin cambios
+pais,texto (ISO-3),País del reporte (relación con dim_pais),original + imputada,country; faltantes imputados desde lat/lng
+pais_imputado,booleano (0/1),1 si el país fue imputado,derivada,country es nulo
+forma_reportada,texto,Forma tal como venía en el archivo original,original,shape; nulos como '(nulo)'
+forma,texto,Forma limpia (relación con dim_forma),derivada,"NaN, unknown y other -> desconocida"
+grupo_forma,texto,Grupo de forma (6 categorías),derivada,Agrupación de las 24 formas
+duracion_seg_reportada,decimal (nulo si falta),"Duración declarada válida, en segundos",original,durationSec; > 24 h -> nulo
+duracion_seg,decimal,"Duración en segundos, completa",derivada,duracion_seg_reportada imputada con mediana por forma
+duracion_imputada,booleano (0/1),1 si duracion_seg fue imputada,derivada,Faltante original o atípico
+duracion_atipica,booleano (0/1),1 si la duración original superaba 24 h,derivada,durationSec > 86.400
+log_duracion,decimal,log10 de la duración reportada,derivada,log10(duracion_seg_reportada)
+rango_duracion,texto,"Rango de duración (< 1 min ... 1–24 h, Sin dato)",derivada,"Cortes en 59, 300, 900 y 3.600 s"
+rango_duracion_orden,entero,Orden del rango para ordenar en Power BI,derivada,1–6
+posible_duplicado,booleano (0/1),"1 si repite fecha-hora, lat, lng y forma con otro reporte",derivada,duplicated(keep='first')
+cluster_geo,entero,Segmento geográfico (K-means sobre lat/lng),derivada,Se agrega en la fase 4

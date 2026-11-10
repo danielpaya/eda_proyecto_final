@@ -1,0 +1,84 @@
+-- Crear en una tabla vacía "_Medidas" (Entrar datos > nombre _Medidas). 22 medidas.
+-- Tablas: fact_reportes, fact_pronostico, dim_calendario, dim_forma, dim_pais, metricas_modelo.
+
+-- ===== BLOQUE A. Reportes (Páginas 1 a 4) =====
+01 Total reportes = COUNTROWS ( fact_reportes )
+
+02 Mediana duración (min) =
+CALCULATE ( MEDIAN ( fact_reportes[duracion_min] ), fact_reportes[duracion_imputada] = 0 )
+
+03 % nocturnos =
+DIVIDE ( CALCULATE ( [01 Total reportes], fact_reportes[franja_dia] = "Noche (18–23)" ), [01 Total reportes] )
+
+04 Reportes año anterior =
+CALCULATE ( [01 Total reportes], SAMEPERIODLASTYEAR ( dim_calendario[Fecha] ) )
+
+05 Variación interanual =
+DIVIDE ( [01 Total reportes] - [04 Reportes año anterior], [04 Reportes año anterior] )
+
+06 Promedio mensual = AVERAGEX ( VALUES ( dim_calendario[AñoMes] ), [01 Total reportes] )
+
+07 % fin de semana =
+DIVIDE ( CALCULATE ( [01 Total reportes], fact_reportes[fin_de_semana] = 1 ), [01 Total reportes] )
+
+08 Reportes festivos pirotecnia =
+CALCULATE ( [01 Total reportes], fact_reportes[festivo_pirotecnia] = 1 )
+
+09 Días festivos pirotecnia =
+CALCULATE ( DISTINCTCOUNT ( fact_reportes[fecha] ), fact_reportes[festivo_pirotecnia] = 1 )
+
+10 Mediana diaria día normal =
+CALCULATE ( MEDIANX ( VALUES ( fact_reportes[fecha] ), [01 Total reportes] ), fact_reportes[festivo_pirotecnia] = 0 )
+
+11 Multiplicador festivos =
+-- Cociente de medianas diarias (festivo con pirotecnia / día común), igual que el informe (77 / 17 ≈ 4,5)
+DIVIDE ( CALCULATE ( MEDIANX ( VALUES ( fact_reportes[fecha] ), [01 Total reportes] ), fact_reportes[festivo_pirotecnia] = 1 ), [10 Mediana diaria día normal] )
+
+12 % fuera de EE. UU. =
+DIVIDE ( CALCULATE ( [01 Total reportes], fact_reportes[pais] <> "USA" ), [01 Total reportes] )
+
+13 Países distintos = DISTINCTCOUNT ( fact_reportes[pais] )
+
+14 % duración imputada = DIVIDE ( CALCULATE ( [01 Total reportes], fact_reportes[duracion_imputada] = 1 ), [01 Total reportes] )
+
+15 % posibles duplicados = DIVIDE ( CALCULATE ( [01 Total reportes], fact_reportes[posible_duplicado] = 1 ), [01 Total reportes] )
+
+-- ===== BLOQUE B. Modelo (Página 5). Filtrar siempre: granularidad = "Mensual", conjunto = "Prueba" =====
+-- Modelo principal: Holt-Winters. Usan la tabla fact_pronostico (no metricas_modelo) para reproducir Python.
+16 Real prueba (mensual) =
+CALCULATE ( SUM ( fact_pronostico[real] ),
+    fact_pronostico[granularidad] = "Mensual", fact_pronostico[conjunto] = "Prueba",
+    fact_pronostico[modelo] = "Holt-Winters" )
+
+17 Pronóstico (modelo seleccionado) =
+CALCULATE ( SUM ( fact_pronostico[pronostico] ),
+    fact_pronostico[granularidad] = "Mensual", fact_pronostico[conjunto] IN { "Prueba", "Futuro" } )
+
+18 MAE =
+CALCULATE (
+    AVERAGEX ( VALUES ( fact_pronostico[fecha] ), ABS ( [16 Real prueba (mensual)] - [17 Pronóstico (modelo seleccionado)] ) ),
+    fact_pronostico[conjunto] = "Prueba" )
+
+19 MAPE =
+CALCULATE (
+    AVERAGEX ( VALUES ( fact_pronostico[fecha] ),
+        DIVIDE ( ABS ( [16 Real prueba (mensual)] - [17 Pronóstico (modelo seleccionado)] ), [16 Real prueba (mensual)] ) ),
+    fact_pronostico[conjunto] = "Prueba" ) * 100
+
+20 MAE ingenuo =
+CALCULATE (
+    AVERAGEX ( VALUES ( fact_pronostico[fecha] ),
+        ABS ( [16 Real prueba (mensual)] - CALCULATE ( SUM ( fact_pronostico[pronostico] ), fact_pronostico[modelo] = "Ingenuo estacional" ) ) ),
+    fact_pronostico[conjunto] = "Prueba" )
+
+21 Mejora vs ingenuo (%) = DIVIDE ( [20 MAE ingenuo] - [18 MAE], [20 MAE ingenuo] ) * 100
+
+22 Cobertura IC 95 % =
+VAR t = FILTER ( fact_pronostico, fact_pronostico[granularidad] = "Mensual" && fact_pronostico[conjunto] = "Prueba"
+                                   && fact_pronostico[modelo] = "Holt-Winters" )
+RETURN DIVIDE ( COUNTROWS ( FILTER ( t, fact_pronostico[real] >= fact_pronostico[li_95] && fact_pronostico[real] <= fact_pronostico[ls_95] ) ), COUNTROWS ( t ) )
+
+-- ===== CONTROL DE CONSISTENCIA (debe coincidir con Python, ver metricas_modelo.csv) =====
+-- Con segmentador modelo = Holt-Winters:  MAE = 87,34 | MAPE = 17,23 | Mejora = 6,59 | Cobertura IC = 92 %
+-- Con modelo = SARIMA: MAE 100,63 | Random Forest: 96,55.
+-- Valores globales: total reportes = 49 803; multiplicador festivos: contrastar con el informe.

@@ -1,0 +1,112 @@
+pais,nombre_pais,region,lat_centro,lng_centro
+AFG,Afganistán,Resto del mundo,33.93,67.7
+ALB,Albania,Resto del mundo,41.32,19.81
+ARE,Emiratos Árabes Unidos,Resto del mundo,25.2,55.27
+ARG,Argentina,Resto del mundo,-34.6,-58.38
+ARM,Armenia,Resto del mundo,40.18,44.51
+AUS,Australia,Resto del mundo,-32.92,146.98
+AUT,Austria,Resto del mundo,48.2,16.37
+AZE,Azerbaiyán,Resto del mundo,40.4,49.86
+BEL,Bélgica,Resto del mundo,50.87,4.46
+BGD,Bangladés,Resto del mundo,23.8,90.41
+BGR,Bulgaria,Resto del mundo,42.69,23.32
+BHS,Bahamas,Resto del mundo,25.035,-77.315
+BIH,Bosnia y Herzegovina,Resto del mundo,43.85,18.41
+BLR,Bielorrusia,Resto del mundo,53.9,27.55
+BOL,Bolivia,Resto del mundo,-17.41,-66.16
+BRA,Brasil,Resto del mundo,-21.815,-45.59
+BWA,Botsuana,Resto del mundo,-22.005,23.16
+CAN,Canadá,Norteamérica (USA y CAN),45.45,-80.0
+CHE,Suiza,Resto del mundo,47.395,8.51
+CHL,Chile,Resto del mundo,-35.665,-72.08
+CHN,China,Resto del mundo,27.375,116.4
+COD,República Democrática del Congo,Resto del mundo,-4.03,21.75
+COL,Colombia,Resto del mundo,4.71,-75.325
+CRI,Costa Rica,Resto del mundo,9.99,-84.225
+CYP,Chipre,Resto del mundo,34.87,33.04
+CZE,Chequia,Resto del mundo,50.07,14.43
+DEU,Alemania,Resto del mundo,51.125,9.0
+DNK,Dinamarca,Resto del mundo,55.67,12.19
+DOM,República Dominicana,Resto del mundo,18.55,-70.33
+DZA,Argelia,Resto del mundo,36.18,5.41
+ECU,Ecuador,Resto del mundo,-1.83,-78.46
+EGY,Egipto,Resto del mundo,30.04,31.23
+ESP,España,Resto del mundo,39.46,-3.025
+EST,Estonia,Resto del mundo,58.985,24.335
+ETH,Etiopía,Resto del mundo,9.01,38.75
+FIN,Finlandia,Resto del mundo,60.29,24.98
+FJI,Fiyi,Resto del mundo,-15.28,148.725
+FRA,Francia,Resto del mundo,47.2,2.74
+GBR,Reino Unido,Resto del mundo,52.54,-1.58
+GEO,Georgia,Resto del mundo,41.69,44.8
+GRC,Grecia,Resto del mundo,37.93,23.72
+GTM,Guatemala,Resto del mundo,15.205,-90.385
+GUY,Guyana,Resto del mundo,6.8,-58.15
+HND,Honduras,Resto del mundo,14.06,-87.17
+HRV,Croacia,Resto del mundo,45.6,15.605
+HUN,Hungría,Resto del mundo,47.49,19.04
+IDN,Indonesia,Resto del mundo,-6.19,106.82
+IND,India,Resto del mundo,20.7,77.1
+IRL,Irlanda,Resto del mundo,53.305,-6.87
+IRN,Irán,Resto del mundo,35.72,51.33
+IRQ,Irak,Resto del mundo,33.31,44.36
+ISL,Islandia,Resto del mundo,64.14,-21.94
+ISR,Israel,Resto del mundo,31.78,34.86
+ITA,Italia,Resto del mundo,41.9,12.51
+JAM,Jamaica,Resto del mundo,18.26,-78.115
+JOR,Jordania,Resto del mundo,32.25,35.875
+JPN,Japón,Resto del mundo,35.67,139.63
+KAZ,Kazajistán,Resto del mundo,43.23,76.88
+KEN,Kenia,Resto del mundo,-0.98,36.82
+KHM,Camboya,Resto del mundo,13.36,103.85
+KOR,Corea del Sur,Resto del mundo,36.685,127.36
+KWT,Kuwait,Resto del mundo,29.29,47.965
+LBN,Líbano,Resto del mundo,33.85,35.86
+LKA,Sri Lanka,Resto del mundo,6.84,80.39
+LSO,Lesoto,Resto del mundo,-29.31,27.48
+LTU,Lituania,Resto del mundo,55.21,24.585
+LUX,Luxemburgo,Resto del mundo,49.57,5.975
+LVA,Letonia,Resto del mundo,56.96,24.1
+MAR,Marruecos,Resto del mundo,25.305,-14.415
+MEX,México,Resto del mundo,21.055,-101.19
+MKD,Macedonia del Norte,Resto del mundo,41.225,21.98
+MMR,Birmania,Resto del mundo,18.47,94.875
+MYS,Malasia,Resto del mundo,3.04,103.74
+NGA,Nigeria,Resto del mundo,7.44,3.9
+NIC,Nicaragua,Resto del mundo,12.11,-86.23
+NLD,Países Bajos,Resto del mundo,52.14,4.9
+NOR,Noruega,Resto del mundo,59.91,10.72
+NPL,Nepal,Resto del mundo,27.71,85.32
+NZL,Nueva Zelanda,Resto del mundo,-39.735,174.76
+OMN,Omán,Resto del mundo,23.58,58.38
+PAK,Pakistán,Resto del mundo,31.13,72.895
+PAN,Panamá,Resto del mundo,8.98,-79.51
+PER,Perú,Resto del mundo,-12.04,-77.04
+PHL,Filipinas,Resto del mundo,13.47,121.77
+POL,Polonia,Resto del mundo,52.22,21.01
+PRI,Puerto Rico,Resto del mundo,18.38,-66.11
+PRT,Portugal,Resto del mundo,39.165,-8.785
+PRY,Paraguay,Resto del mundo,-25.485,-55.285
+QAT,Catar,Resto del mundo,26.06,51.53
+ROU,Rumania,Resto del mundo,45.525,25.59
+RUS,Rusia,Resto del mundo,55.75,61.43
+SAU,Arabia Saudita,Resto del mundo,21.43,39.52
+SLV,El Salvador,Resto del mundo,13.47,-88.17
+SRB,Serbia,Resto del mundo,44.81,20.46
+SUR,Surinam,Resto del mundo,5.81,-57.17
+SVK,Eslovaquia,Resto del mundo,48.695,19.315
+SVN,Eslovenia,Resto del mundo,46.07,14.5
+SWE,Suecia,Resto del mundo,60.025,15.7
+THA,Tailandia,Resto del mundo,13.63,100.5
+TTO,Trinidad y Tobago,Resto del mundo,10.66,-61.33
+TUN,Túnez,Resto del mundo,35.82,10.63
+TUR,Turquía,Resto del mundo,39.5,30.28
+UKR,Ucrania,Resto del mundo,49.99,30.72
+URY,Uruguay,Resto del mundo,-34.86,-56.18
+USA,Estados Unidos,Norteamérica (USA y CAN),39.06,-87.87
+VEN,Venezuela,Resto del mundo,10.48,-66.9
+VNM,Vietnam,Resto del mundo,10.82,106.62
+XKX,Kosovo,Resto del mundo,42.65,20.71
+ZAF,Sudáfrica,Resto del mundo,-26.36,28.04
+ZMB,Zambia,Resto del mundo,-14.9,28.385
+ZWE,Zimbabue,Resto del mundo,-17.82,31.04
